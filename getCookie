@@ -1,4 +1,4 @@
-hostname =api.m.jd.com, ifac*.iqiyi.com, *.bilibili.com, www.duokan.com, *.v2ex.com, my.ruanmei.com, draw.jdfcloud.com, weather-data.apple.com, api.weather.com, m.xiaomiyoupin.com, api.m.jd.com, wq.jd.com, jdread-api.jd.com
+hostname =ifac*.iqiyi.com, *.bilibili.com, www.duokan.com, *.v2ex.com, my.ruanmei.com, weather-data.apple.com, api.weather.com, m.xiaomiyoupin.com, ms.jr.jd.com, me-api.jd.com, api.m.jd.com
 
 # 获取京东Cookie. 
 ^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
